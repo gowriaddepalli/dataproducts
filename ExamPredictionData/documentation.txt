@@ -1,0 +1,17 @@
+
+ABOUT THIS APP:
+
+This is shiny application which predicts your percentage as per your input.
+
+The user panel of the lefthand side ask for the following inputs:
+1)your Roll number: which is usually given to each student to particularly identify everyone uniquely and maximum of the students being 200.
+
+2)your Invigilator/Invigilators: Names of teachers who are supposed to check your exam papers
+
+3)The papers student gave where physics,biology and maths whose marks they were supposed to enter in the numeric input having minimmum 0,maximum 100 and a step size of 1.
+
+4)The date field mentions the date of birth of the students.
+
+The submit button sends the data to server.R,which processes the required data to give a predictive outcome,that is it calculates the marks of the student who appeared the three exams.
+
+The display side,on the right side of the window,displays the student information as per entered and gives the predicted output.
